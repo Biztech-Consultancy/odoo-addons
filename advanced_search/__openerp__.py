@@ -5,6 +5,7 @@
     'author': 'Biztech Consultancy',
     'website': 'http://www.biztechconsultancy.com',
     'category': 'General',
+    "summary":  "Allows to make search specific fields of Invoice, Refund, Purchase Order,Purchase Receipts",
     'description': """
 Manage search.
 ====================================
