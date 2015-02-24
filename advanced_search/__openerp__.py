@@ -18,8 +18,6 @@ Supplier Invoice, Supplier Refund, Purchase Orders, Purchase Receipts.
               ],
     'demo': [],
     'installable': True,
-    'price': 9.99,
-    'currency': 'USD',
     'auto_install': False,
 }
 
