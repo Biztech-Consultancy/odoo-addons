@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 {
     'name': 'Custom Search',
-    'version': '1.1',
+    'version': '0.1',
     'author': 'Biztech Consultancy',
     'website': 'http://www.biztechconsultancy.com',
-    'category': 'General',
+    "category": "",
     "summary":  "Allows to make search specific fields of Invoice, Refund, Purchase Order,Purchase Receipts",
     'description': """
 Manage search.
