@@ -18,6 +18,7 @@ Supplier Invoice, Supplier Refund, Purchase Orders, Purchase Receipts.
              'custom_search_view.xml',
               ],
     'demo': [],
+    "images": ['images/company-logo.png',],    
     'installable': True,
     'price': 1.0,
     'currency': 'USD',
