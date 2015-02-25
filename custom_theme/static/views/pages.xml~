@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- vim:fdn=3:
+-->
+<openerp>
+    <data>
+	<template id="gourman_website_options_pattern" inherit_id="website.homepage">
+    <xpath expr="//div[class='oe_structure oe_empty']" position="inside">
+      <div class="carousel slide mb32" id="myCarousel0" style="height: 360px; overflow: hidden;">
+        <ol class="carousel-indicators hidden">
+          <li class="active" data-slide-to="0" data-target="#myCarousel0"/>
+        </ol>
+        <div class="carousel-inner">
+          <div class="item oe_img_bg active" style="background-image: url(&quot;http://www.biztechconsultancy.com/img/banner-01.jpg&quot;);">
+            <div class="container">
+              <div class="row content">
+                <div class="carousel-content col-sm-12 col-md-8">
+                  <h2>Your Banner Title</h2>
+                  <h3>Click to customize this text</h3>
+                  <p>
+                    <a class="btn btn-success btn-large" href="/page/website.contactus">Contact us</a>
+                  </p>
+                </div>
+                <div class="carousel-img hidden-sm hidden-xs col-md-4">
+                  <img alt="Banner Odoo Image" class="img-responsive" src="/website/image/ir.attachment/91_c49398b/datas" style="animation-play-state: paused; transition: none 0s ease 0s"/>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-control left hidden" data-slide="prev" data-target="#myCarousel0" href="#myCarousel0" style="width: 10%">
+          <i class="fa fa-chevron-left"/>
+        </div>
+        <div class="carousel-control right hidden" data-slide="next" data-target="#myCarousel0" href="#myCarousel0" style="width: 10%">
+          <i class="fa fa-chevron-right"/>
+        </div>
+      </div>
+      <hr/>
+      <section class="mb16">
+        <div class="container">
+          <div class="row mt16 mb16">
+		        <div class="col-md-4 text-center">
+		          <span class="fa fa-suitcase fa-5x"/>
+		          <h3 class="mt8 mb0">First Feature</h3>
+		          <div class="text-muted">Tell what's the value for the</div>
+		          <div class="text-muted">customer for this feature.</div>
+		        </div>
+		        <div class="col-md-4 text-center">
+		          <span class="fa fa-lock fa-5x"/>
+		          <h3 class="mt8 mb0">Second Feature</h3>
+		          <div class="text-muted">Write what the customer would like to know,</div>
+		          <div class="text-muted">not what you want to show.</div>
+		        </div>
+		        <div class="col-md-4 text-center">
+		          <span class="fa fa-heart fa-5x"/>
+		          <h3 class="mt8 mb0">Third Feature</h3>
+		          <div class="text-muted">A small explanation of this great</div>
+		          <div class="text-muted">feature, in clear words.</div>
+		        </div>
+          </div>
+        </div>
+      </section>
+    </xpath>
+</template>
+</data>
+</openerp>
