@@ -5,12 +5,12 @@
     'author': 'Biztech Consultancy',
     'website': 'http://www.biztechconsultancy.com',
     "category": "",
-    "summary":  "Allows to make search specific fields of Invoice, Refund, Purchase Order,Purchase Receipts",
+    "summary":  "Allows to search specific fields of one2many relations of Invoice, Refund, Purchase Order,Purchase Receipts",
     'description': """
 Manage search.
 ====================================
 
-This module allows us to search some of the fields of one2many relational fields for specific objects i.e. Customer Invoice, Customer Refund, 
+This module allows us to search some of the fields of one2many relational field for specific objects i.e. Customer Invoice, Customer Refund, 
 Supplier Invoice, Supplier Refund, Purchase Orders, Purchase Receipts.
     """,
     'depends' : ['purchase', 'account','account_voucher'],
@@ -20,8 +20,6 @@ Supplier Invoice, Supplier Refund, Purchase Orders, Purchase Receipts.
     'demo': [],
     "images": ['images/company-logo.png',],    
     'installable': True,
-    'price': 1.0,
-    'currency': 'USD',
     'auto_install': False,
 }
 
