@@ -2,7 +2,7 @@
 {
     'name': 'Custom Search',
     'version': '0.1',
-    'author': 'BiztechCS',
+    'author': 'Biztech Consultancy',
     'website': 'http://www.biztechconsultancy.com',
     "category": "",
     "summary":  "Allows to search specific fields of one2many relations of Invoice, Refund, Purchase Order,Purchase Receipts",
